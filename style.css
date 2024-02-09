@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.bdr {
+  border: 1px solid red;
+}
+ul {
+  list-style-type: none;
+  margin: 0 !important;
+}
+.background {
+  filter: brightness(75%);
+}
+
+.blur-10 {
+  backdrop-filter: blur(10px);
+}
+
+#search {
+  height: 50px;
+  width: 300px;
+  background: rgba(255, 255, 255, 0.224);
+  outline: none !important;
+}
+.list-group-item {
+  background: rgb(0, 0, 0);
+  transition: 0.2s all ease;
+}
+
+.list-group-item:hover{
+  background-color: white;
+  color: black;
+}
+
+.list-group-item:hover .badge{
+  background-color: white;
+  color: black !important;
+  border-color: black !important;
+}
+
+.ls1 {
+  letter-spacing: 1px;
+}
+.main-cont {
+  width: 340px;
+}
